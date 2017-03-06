@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D03E5091E6CFBFA00FF7B26 /* WMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D03E5081E6CFBFA00FF7B26 /* WMViewController.swift */; };
 		8D2685661E6934020049F2F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2685651E6934020049F2F2 /* AppDelegate.swift */; };
 		8D2685681E6934020049F2F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2685671E6934020049F2F2 /* ViewController.swift */; };
 		8D26856B1E6934020049F2F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2685691E6934020049F2F2 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		8D2685701E6934020049F2F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D26856E1E6934020049F2F2 /* LaunchScreen.storyboard */; };
 		8D26857B1E6934030049F2F2 /* zmsjWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D26857A1E6934030049F2F2 /* zmsjWorldTests.swift */; };
 		8D2685861E6934030049F2F2 /* zmsjWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2685851E6934030049F2F2 /* zmsjWorldUITests.swift */; };
+		8D2685961E6951CA0049F2F2 /* WMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2685951E6951CA0049F2F2 /* WMNavigationController.swift */; };
+		8D2685991E695D0D0049F2F2 /* Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2685981E695D0D0049F2F2 /* Public.swift */; };
+		8D3661271E6CFF190090C4A7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3661251E6CFF190090C4A7 /* LoginVC.swift */; };
+		8D3661281E6CFF190090C4A7 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3661261E6CFF190090C4A7 /* LoginVC.xib */; };
+		8D36612B1E6D11420090C4A7 /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D36612A1E6D11420090C4A7 /* DataManger.swift */; };
+		8DFD764DC8021AE8626EDDEA /* Pods_zmsjWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801DCA1A800E3039272D664D /* Pods_zmsjWorld.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		247FAC1BAC93DCB81D79F2A6 /* Pods-zmsjWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zmsjWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zmsjWorld/Pods-zmsjWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		2E2F12A49876D94943A3BC75 /* Pods-zmsjWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zmsjWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-zmsjWorld/Pods-zmsjWorld.release.xcconfig"; sourceTree = "<group>"; };
+		801DCA1A800E3039272D664D /* Pods_zmsjWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zmsjWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D03E5081E6CFBFA00FF7B26 /* WMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMViewController.swift; sourceTree = "<group>"; };
 		8D2685621E6934020049F2F2 /* zmsjWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zmsjWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2685651E6934020049F2F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D2685671E6934020049F2F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,12 @@
 		8D2685811E6934030049F2F2 /* zmsjWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zmsjWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2685851E6934030049F2F2 /* zmsjWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zmsjWorldUITests.swift; sourceTree = "<group>"; };
 		8D2685871E6934030049F2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D2685931E6937BB0049F2F2 /* zmsjWorld-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "zmsjWorld-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D2685951E6951CA0049F2F2 /* WMNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMNavigationController.swift; sourceTree = "<group>"; };
+		8D2685981E695D0D0049F2F2 /* Public.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Public.swift; sourceTree = "<group>"; };
+		8D3661251E6CFF190090C4A7 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		8D3661261E6CFF190090C4A7 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		8D36612A1E6D11420090C4A7 /* DataManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DFD764DC8021AE8626EDDEA /* Pods_zmsjWorld.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +92,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AB2864415DF87D3A28147AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				801DCA1A800E3039272D664D /* Pods_zmsjWorld.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		867942D6C644DA480F890B9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				247FAC1BAC93DCB81D79F2A6 /* Pods-zmsjWorld.debug.xcconfig */,
+				2E2F12A49876D94943A3BC75 /* Pods-zmsjWorld.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D03E50A1E6CFDE700FF7B26 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8D3661251E6CFF190090C4A7 /* LoginVC.swift */,
+				8D3661261E6CFF190090C4A7 /* LoginVC.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		8D2685591E6934010049F2F2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				8D2685791E6934030049F2F2 /* zmsjWorldTests */,
 				8D2685841E6934030049F2F2 /* zmsjWorldUITests */,
 				8D2685631E6934020049F2F2 /* Products */,
+				867942D6C644DA480F890B9D /* Pods */,
+				3AB2864415DF87D3A28147AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +143,13 @@
 		8D2685641E6934020049F2F2 /* zmsjWorld */ = {
 			isa = PBXGroup;
 			children = (
+				8D3661291E6D112C0090C4A7 /* Data */,
+				8D03E50A1E6CFDE700FF7B26 /* Login */,
+				8D2685941E6951A40049F2F2 /* Main */,
 				8D2685651E6934020049F2F2 /* AppDelegate.swift */,
 				8D2685671E6934020049F2F2 /* ViewController.swift */,
+				8D2685981E695D0D0049F2F2 /* Public.swift */,
+				8D2685931E6937BB0049F2F2 /* zmsjWorld-Bridging-Header.h */,
 				8D2685691E6934020049F2F2 /* Main.storyboard */,
 				8D26856C1E6934020049F2F2 /* Assets.xcassets */,
 				8D26856E1E6934020049F2F2 /* LaunchScreen.storyboard */,
@@ -125,6 +176,23 @@
 			path = zmsjWorldUITests;
 			sourceTree = "<group>";
 		};
+		8D2685941E6951A40049F2F2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8D2685951E6951CA0049F2F2 /* WMNavigationController.swift */,
+				8D03E5081E6CFBFA00FF7B26 /* WMViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8D3661291E6D112C0090C4A7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8D36612A1E6D11420090C4A7 /* DataManger.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D26858A1E6934030049F2F2 /* Build configuration list for PBXNativeTarget "zmsjWorld" */;
 			buildPhases = (
+				F7E196166C83289D45285BF1 /* [CP] Check Pods Manifest.lock */,
 				8D26855E1E6934020049F2F2 /* Sources */,
 				8D26855F1E6934020049F2F2 /* Frameworks */,
 				8D2685601E6934020049F2F2 /* Resources */,
+				E589028B94CE0E61961D9973 /* [CP] Embed Pods Frameworks */,
+				F95A94B42ED3EC50C1A0F9E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +264,7 @@
 				TargetAttributes = {
 					8D2685611E6934020049F2F2 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 55MBA8Q7R4;
+						DevelopmentTeam = RQBBRH4C2W;
 						ProvisioningStyle = Automatic;
 					};
 					8D2685751E6934030049F2F2 = {
@@ -237,6 +308,7 @@
 			files = (
 				8D2685701E6934020049F2F2 /* LaunchScreen.storyboard in Resources */,
 				8D26856D1E6934020049F2F2 /* Assets.xcassets in Resources */,
+				8D3661281E6CFF190090C4A7 /* LoginVC.xib in Resources */,
 				8D26856B1E6934020049F2F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,12 +329,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E589028B94CE0E61961D9973 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zmsjWorld/Pods-zmsjWorld-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7E196166C83289D45285BF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F95A94B42ED3EC50C1A0F9E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zmsjWorld/Pods-zmsjWorld-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D26855E1E6934020049F2F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D03E5091E6CFBFA00FF7B26 /* WMViewController.swift in Sources */,
 				8D2685681E6934020049F2F2 /* ViewController.swift in Sources */,
+				8D3661271E6CFF190090C4A7 /* LoginVC.swift in Sources */,
+				8D2685961E6951CA0049F2F2 /* WMNavigationController.swift in Sources */,
+				8D2685991E695D0D0049F2F2 /* Public.swift in Sources */,
+				8D36612B1E6D11420090C4A7 /* DataManger.swift in Sources */,
 				8D2685661E6934020049F2F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,26 +538,30 @@
 		};
 		8D26858B1E6934030049F2F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247FAC1BAC93DCB81D79F2A6 /* Pods-zmsjWorld.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 55MBA8Q7R4;
+				DEVELOPMENT_TEAM = RQBBRH4C2W;
 				INFOPLIST_FILE = zmsjWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LF.zmsjWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhan.push2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/zmsjWorld/zmsjWorld-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		8D26858C1E6934030049F2F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E2F12A49876D94943A3BC75 /* Pods-zmsjWorld.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 55MBA8Q7R4;
+				DEVELOPMENT_TEAM = RQBBRH4C2W;
 				INFOPLIST_FILE = zmsjWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LF.zmsjWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhan.push2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/zmsjWorld/zmsjWorld-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -514,6 +643,7 @@
 				8D26858C1E6934030049F2F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D26858D1E6934030049F2F2 /* Build configuration list for PBXNativeTarget "zmsjWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +652,7 @@
 				8D26858F1E6934030049F2F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D2685901E6934030049F2F2 /* Build configuration list for PBXNativeTarget "zmsjWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +661,7 @@
 				8D2685921E6934030049F2F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
