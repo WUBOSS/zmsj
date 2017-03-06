@@ -8,6 +8,8 @@
 
 #ifndef zmsjWorld_Bridging_Header_h
 #define zmsjWorld_Bridging_Header_h
-#import"AFNetworking/AFNetworking.h"
-#import"MJRefresh/MJRefresh.h"
+#import"NSData+AES256.h"
+#import"NSString+AES256.h"
+//#import"MJExtension/MJExtension.h"
+
 #endif /* zmsjWorld_Bridging_Header_h */

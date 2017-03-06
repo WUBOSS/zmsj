@@ -8,10 +8,13 @@
 
 import UIKit
 import Foundation
+let kUserName="userLogion_name"
+let kUserPassword="userLogion_password"
+let KGTCid="GeTui_Cid"
+
 class DataManger: NSObject {
 
-    static let kUserName="userLogion_name"
-     static let kUserPassword="userLogion_password"
+    
     static func loadUserName()->String?
     {
 //        if let name = UserDefaults.standard.object(forKey: kUserName)
@@ -30,4 +33,11 @@ class DataManger: NSObject {
         return UserDefaults.standard.object(forKey: kUserPassword) as! String?
 
     }
+    static func loadGTuiCid()->String?
+    {
+        return UserDefaults.standard.object(forKey: KGTCid) as! String?
+        
+    }
+    
+    
 }

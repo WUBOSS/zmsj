@@ -37,6 +37,39 @@ class LoginVC: WMViewController {
         
         // Dispose of any resources that can be recreated.
     }
+    //MARK:忘记密码
+    @IBAction func forgetPassWord(_ sender: UIButton) {
+        
+        
+    }
+    //MARK:记住密码
+    @IBAction func remmberPassWord(_ sender: UIButton) {
+        self.mRemmberKeyBtn.isSelected = !self.mRemmberKeyBtn.isSelected
+        
+    }
+    //MARK:登入
+    @IBAction func login(_ sender: UIButton) {
+        
+        let dic=NSMutableDictionary.init()
+        
+        dic["username"]=self.mPhoneInput.text
+        dic["enPassword"]=self.mKeyInput.text?.aes256_encrypt()
+        dic["cid"]=self.mPhoneInput.text
+        dic["name"]=UIDevice.current.model
+        dic["platform"]="IOS"
+        dic["systemName"]=UIDevice.current.systemVersion
+        
+        RequestTool.request(httpMethod: HTTPRequestMethod.POST, urlSring: login_url, param: dic, backModel: NSMutableArray.self, resultKey: nil, success: { (dataArray, code, error, status,responseobject) in
+        
+            
+        }, fail: { (error) in
+            
+        }, showHud: true)
+    }
+    //MARK:注册
+    @IBAction func signUp(_ sender: UIButton) {
+        
+    }
     
     //MARK:设置view
     
@@ -53,7 +86,7 @@ class LoginVC: WMViewController {
         
         
     }
-    
+    //MARK:设置记住密码
     func setupValue() {
      
         if let userName=DataManger.loadUserName(){

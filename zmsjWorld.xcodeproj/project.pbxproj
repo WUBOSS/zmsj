@@ -20,6 +20,10 @@
 		8D3661271E6CFF190090C4A7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3661251E6CFF190090C4A7 /* LoginVC.swift */; };
 		8D3661281E6CFF190090C4A7 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3661261E6CFF190090C4A7 /* LoginVC.xib */; };
 		8D36612B1E6D11420090C4A7 /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D36612A1E6D11420090C4A7 /* DataManger.swift */; };
+		8D36612E1E6D2F190090C4A7 /* RequestTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D36612D1E6D2F190090C4A7 /* RequestTool.swift */; };
+		8D3661301E6D38000090C4A7 /* HttpUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D36612F1E6D38000090C4A7 /* HttpUrls.swift */; };
+		8D3661361E6D4BD10090C4A7 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3661331E6D4BD10090C4A7 /* NSData+AES256.m */; };
+		8D3661371E6D4BD10090C4A7 /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3661351E6D4BD10090C4A7 /* NSString+AES256.m */; };
 		8DFD764DC8021AE8626EDDEA /* Pods_zmsjWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801DCA1A800E3039272D664D /* Pods_zmsjWorld.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +68,12 @@
 		8D3661251E6CFF190090C4A7 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		8D3661261E6CFF190090C4A7 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		8D36612A1E6D11420090C4A7 /* DataManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
+		8D36612D1E6D2F190090C4A7 /* RequestTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTool.swift; sourceTree = "<group>"; };
+		8D36612F1E6D38000090C4A7 /* HttpUrls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpUrls.swift; sourceTree = "<group>"; };
+		8D3661321E6D4BD10090C4A7 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		8D3661331E6D4BD10090C4A7 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		8D3661341E6D4BD10090C4A7 /* NSString+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES256.h"; sourceTree = "<group>"; };
+		8D3661351E6D4BD10090C4A7 /* NSString+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES256.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +153,8 @@
 		8D2685641E6934020049F2F2 /* zmsjWorld */ = {
 			isa = PBXGroup;
 			children = (
+				8D3661311E6D4BD10090C4A7 /* AES256 */,
+				8D36612C1E6D2F010090C4A7 /* Tool */,
 				8D3661291E6D112C0090C4A7 /* Data */,
 				8D03E50A1E6CFDE700FF7B26 /* Login */,
 				8D2685941E6951A40049F2F2 /* Main */,
@@ -191,6 +203,26 @@
 				8D36612A1E6D11420090C4A7 /* DataManger.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		8D36612C1E6D2F010090C4A7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				8D36612D1E6D2F190090C4A7 /* RequestTool.swift */,
+				8D36612F1E6D38000090C4A7 /* HttpUrls.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		8D3661311E6D4BD10090C4A7 /* AES256 */ = {
+			isa = PBXGroup;
+			children = (
+				8D3661321E6D4BD10090C4A7 /* NSData+AES256.h */,
+				8D3661331E6D4BD10090C4A7 /* NSData+AES256.m */,
+				8D3661341E6D4BD10090C4A7 /* NSString+AES256.h */,
+				8D3661351E6D4BD10090C4A7 /* NSString+AES256.m */,
+			);
+			path = AES256;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,8 +417,12 @@
 				8D03E5091E6CFBFA00FF7B26 /* WMViewController.swift in Sources */,
 				8D2685681E6934020049F2F2 /* ViewController.swift in Sources */,
 				8D3661271E6CFF190090C4A7 /* LoginVC.swift in Sources */,
+				8D36612E1E6D2F190090C4A7 /* RequestTool.swift in Sources */,
 				8D2685961E6951CA0049F2F2 /* WMNavigationController.swift in Sources */,
 				8D2685991E695D0D0049F2F2 /* Public.swift in Sources */,
+				8D3661371E6D4BD10090C4A7 /* NSString+AES256.m in Sources */,
+				8D3661361E6D4BD10090C4A7 /* NSData+AES256.m in Sources */,
+				8D3661301E6D38000090C4A7 /* HttpUrls.swift in Sources */,
 				8D36612B1E6D11420090C4A7 /* DataManger.swift in Sources */,
 				8D2685661E6934020049F2F2 /* AppDelegate.swift in Sources */,
 			);

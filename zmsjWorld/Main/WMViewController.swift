@@ -13,6 +13,7 @@ class WMViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor=PublicSet.ViewBgColor
         
+        
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)

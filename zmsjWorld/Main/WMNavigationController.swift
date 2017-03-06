@@ -6,7 +6,7 @@
 //  Copyright © 2017年 zhanshu1. All rights reserved.
 //
 
-import Foundation
+import UIKit
 class WMNavigationController: UINavigationController {
     override var preferredStatusBarStyle: UIStatusBarStyle{
         return UIStatusBarStyle.lightContent

@@ -124,6 +124,9 @@
                     <state key="normal" title="  记住密码" image="jizhumima">
                         <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="remmberPassWord:" destination="-1" eventType="touchUpInside" id="OMb-hk-3aM"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lb3-Ha-lRV">
                     <rect key="frame" x="278" y="356" width="82" height="22"/>
@@ -134,6 +137,9 @@
                     <state key="normal" title="忘记密码？">
                         <color key="titleColor" red="0.95686274510000002" green="0.56078431370000004" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
+                    <connections>
+                        <action selector="forgetPassWord:" destination="-1" eventType="touchUpInside" id="EKl-a2-5Ia"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dtY-uD-HSj">
                     <rect key="frame" x="15" y="405" width="345" height="40"/>
@@ -144,6 +150,9 @@
                     <state key="normal" title="登录">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="login:" destination="-1" eventType="touchUpInside" id="11h-8l-may"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A9a-KL-2no">
                     <rect key="frame" x="15" y="447" width="345" height="40"/>
@@ -169,6 +178,9 @@
                             </fragment>
                         </attributedString>
                     </state>
+                    <connections>
+                        <action selector="signUp:" destination="-1" eventType="touchUpInside" id="f7n-Ql-xii"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

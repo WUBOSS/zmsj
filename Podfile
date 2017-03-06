@@ -2,7 +2,7 @@
 
 target 'zmsjWorld' do
 use_frameworks!
- pod 'AFNetworking'
+pod 'AFNetworking'
 pod 'MJRefresh'
-
+pod ‘MJExtension’
 end
