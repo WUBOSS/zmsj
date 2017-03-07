@@ -11,6 +11,7 @@ import Foundation
 let kUserName="userLogion_name"
 let kUserPassword="userLogion_password"
 let KGTCid="GeTui_Cid"
+let kUserToken="userToken_name"
 
 class DataManger: NSObject {
 
@@ -36,6 +37,13 @@ class DataManger: NSObject {
     static func loadGTuiCid()->String?
     {
         return UserDefaults.standard.object(forKey: KGTCid) as! String?
+        
+    }
+    static func SaveUserToken(_ token:String)
+    {
+        
+        UserDefaults.standard.set(token, forKey: kUserToken)
+        UserDefaults.standard.synchronize()
         
     }
     

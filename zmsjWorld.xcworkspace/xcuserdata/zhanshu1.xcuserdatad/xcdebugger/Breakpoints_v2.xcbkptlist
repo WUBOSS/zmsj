@@ -17,38 +17,22 @@
             endingLineNumber = "63"
             landmarkName = "login(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "zmsjWorld.LoginVC.(login (__ObjC.UIButton) -&gt; ()).(closure #1)"
-                  moduleName = "zmsjWorld"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhanshu1/Desktop/zmsjWorld/zmsjWorld/Login/LoginVC.swift"
-                  timestampString = "510490723.518064"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "65"
-                  endingLineNumber = "65"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "zmsjWorld.LoginVC.(login (__ObjC.UIButton) -&gt; ()).(closure #2)"
-                  moduleName = "zmsjWorld"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhanshu1/Desktop/zmsjWorld/zmsjWorld/Login/LoginVC.swift"
-                  timestampString = "510490723.52025"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "67"
-                  endingLineNumber = "67"
-                  offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "zmsjWorld/Main/ViewController/WMTabBarController.swift"
+            timestampString = "510564960.139774"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "addClick(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

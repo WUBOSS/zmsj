@@ -7,6 +7,11 @@
 //
 
 import UIKit
+let ScreenWidth =  UIScreen.main.bounds.size.width
+let ScreenHight =  UIScreen.main.bounds.size.height
+let LightGrayColor = PublicSet.setColor(215, 215, 215, 1)
+
+
 
 class PublicSet: NSObject {
     
@@ -17,6 +22,7 @@ class PublicSet: NSObject {
     
     static func setColor(_ R:CGFloat,_ G:CGFloat,_ B:CGFloat,_ alpha:CGFloat)->UIColor
     {
+       
         return UIColor.init(red: R/255.0, green: G/255.0, blue: B/255.0, alpha: alpha)
         
         
@@ -24,6 +30,10 @@ class PublicSet: NSObject {
     static func navBackColor()->UIColor
     {
         return self.setColor(255, 86, 3, 1)
+    }
+    static func randomColor()->UIColor
+    {
+        return self.setColor(CGFloat(arc4random_uniform(256)), CGFloat(arc4random_uniform(256)), CGFloat(arc4random_uniform(256)), 1)
     }
     
     
