@@ -26,7 +26,7 @@
                   moduleName = "zmsjWorld"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhanshu1/Desktop/zmsjWorld/zmsjWorld/Login/LoginVC.swift"
-                  timestampString = "510490565.020884"
+                  timestampString = "510490723.518064"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "65"
@@ -41,60 +41,12 @@
                   moduleName = "zmsjWorld"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhanshu1/Desktop/zmsjWorld/zmsjWorld/Login/LoginVC.swift"
-                  timestampString = "510490565.022958"
+                  timestampString = "510490723.52025"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "67"
                   endingLineNumber = "67"
                   offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "zmsjWorld/Tool/RequestTool.swift"
-            timestampString = "510490597.461288"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "request(httpMethod:urlSring:param:backModel:resultKey:success:fail:showHud:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static zmsjWorld.RequestTool.(request (httpMethod : zmsjWorld.HTTPRequestMethod, urlSring : Swift.String, param : Swift.Optional&lt;__ObjC.NSMutableDictionary&gt;, backModel : Swift.Optional&lt;Swift.AnyObject.Type&gt;, resultKey : Swift.Optional&lt;Swift.String&gt;, success : Swift.Optional&lt;(Swift.Optional&lt;__ObjC.NSMutableArray&gt;, Swift.Int, Swift.String, Swift.String, Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()&gt;, fail : Swift.Optional&lt;(Swift.Error) -&gt; ()&gt;, showHud : Swift.Bool) -&gt; ()).(closure #2)"
-                  moduleName = "zmsjWorld"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhanshu1/Desktop/zmsjWorld/zmsjWorld/Tool/RequestTool.swift"
-                  timestampString = "510490597.470605"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "404">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static zmsjWorld.RequestTool.(request (httpMethod : zmsjWorld.HTTPRequestMethod, urlSring : Swift.String, param : Swift.Optional&lt;__ObjC.NSMutableDictionary&gt;, backModel : Swift.Optional&lt;Swift.AnyObject.Type&gt;, resultKey : Swift.Optional&lt;Swift.String&gt;, success : Swift.Optional&lt;(Swift.Optional&lt;__ObjC.NSMutableArray&gt;, Swift.Int, Swift.String, Swift.String, Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()&gt;, fail : Swift.Optional&lt;(Swift.Error) -&gt; ()&gt;, showHud : Swift.Bool) -&gt; ()).(closure #2)"
-                  moduleName = "zmsjWorld"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhanshu1/Desktop/zmsjWorld/zmsjWorld/Tool/RequestTool.swift"
-                  timestampString = "510490597.474736"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "2976">
                </Location>
             </Locations>
          </BreakpointContent>
